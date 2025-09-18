@@ -1,16 +1,11 @@
-//sums a series of numbers
 #include <stdio.h>
 
 int main(void){
-    int sum = 0, i;
-
-    printf("THis program shows the sum of integers\n");
-    printf("Enter integers (0 to terminate): ");
-
+    int i;
+    printf("Enter I:");
     scanf("%d", &i);
-    while(i != 0){
-        sum +=i;
-        scanf("%d", &i);   
-    }
-    printf("Sum is %d", sum);
+
+    if (n<0) printf("-1");
+    else if (n==0) printf("0");
+    else  (n>0) printf("1");
 }
