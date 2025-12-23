@@ -35,7 +35,7 @@ int main(void) {
     scanf("%d :%d", &hour, &minute);
     user_time = hour * 60 + minute;
 
-    for(int i = 0; i < 7; i++){
+    for(int i = 0; i <= 7; i++){
         int k = i+1;
         int aprox = departure[i] + (departure[k]-departure[i])/2;
     if(user_time < aprox){
