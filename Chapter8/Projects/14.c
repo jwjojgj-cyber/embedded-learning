@@ -26,6 +26,7 @@ int main(){
         }
         end = j;
     }
+    printf("%c", c);
 }
     
     
